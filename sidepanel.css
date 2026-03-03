@@ -1,0 +1,47 @@
+.side-panel {
+    width: 250px;
+    background-color: #f7f7f7;
+    border-right: 1px solid #e0e0e0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.side-panel h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 20px 0;
+}
+
+.side-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-panel li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.side-panel li:hover {
+    background-color: #e8e8e8;
+}
+
+.side-panel .button {
+    margin-top: auto;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.side-panel .button:hover {
+    background-color: #0056b3;
+}
